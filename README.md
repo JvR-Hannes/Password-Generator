@@ -56,6 +56,8 @@ Copy to clipboard functionality.
 
 Allow users to customize password length.
 
+Adjust UI to display properly on all devices
+
 Dark mode theme.
 
 # License
