@@ -1,19 +1,65 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Random Password Generator
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+# Overview
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+This project is a simple random password generator that helps users create secure passwords with a single click. Users have the option to generate passwords that include letters, numbers, and special characters, or restrict the output to numbers only.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+# Features
 
-Happy Coding!
+Generate a random password with letters, numbers, and symbols.
+
+Option to generate numeric-only passwords.
+
+Quick and simple UI with a single click generation.
+
+# Technologies Used
+
+HTML for structure
+
+CSS for styling
+
+JavaScript for logic
+
+# Usage
+
+Open the index.html file in a browser.
+
+Click the "Generate Password" button to generate random passwords.
+
+Check the "Do you want numbers only?" checkbox if you want passwords containing only numbers.
+
+Two different password options will be displayed for you to choose from.
+
+# Files Structure
+
+index.html - The main HTML structure.
+
+index.css - Styling for the UI.
+
+index.js - JavaScript file containing password generation logic.
+
+# How It Works
+
+A random password is generated using predefined characters.
+
+If the "Numbers Only" checkbox is checked, the generator will create a password containing only digits.
+
+Clicking the "Generate Password" button will create two new random passwords.
+
+# Preview
+
+
+
+# Future Improvements
+
+Copy to clipboard functionality.
+
+Allow users to customize password length.
+
+Dark mode theme.
+
+# License
+
+This project is open-source and free to use under the MIT License.
+
+Made with ❤️ by Hannes Jansen van Rensburg
