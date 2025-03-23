@@ -1,6 +1,6 @@
 # Random Password Generator
 
-# Overview
+<h1>Overview</h1>
 
 This project is a simple random password generator that helps users create secure passwords with a single click. Users have the option to generate passwords that include letters, numbers, and special characters, or restrict the output to numbers only.
 
