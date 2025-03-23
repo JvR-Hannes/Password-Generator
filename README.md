@@ -47,7 +47,7 @@ If the "Numbers Only" checkbox is checked, the generator will create a password 
 Clicking the "Generate Password" button will create two new random passwords.
 
 # Preview
-
+<img src="passwordsnap1.png"> <img src="passwordsnap2.png"> <img src="passwordsnap3.png">
 
 
 # Future Improvements
