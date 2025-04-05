@@ -13,6 +13,24 @@ h1 {
     font-size: 2rem;
 }
 
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+    transform: scale(1.2); /* optional: makes checkbox a bit larger */
+    accent-color: #10B981; /* optional: matches theme */
+}
+
+.checkbox-wrapper label {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #d5d4d8;
+}
+
 span {
     color: #10B981;
 }

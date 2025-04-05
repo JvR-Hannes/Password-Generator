@@ -13,7 +13,10 @@
             <h1>Generate a<br><span>random password</span></h1>
             <p>Never use an insecure password again</p>
             <button onclick="generatePassword()">Generate Password</button>
-            <input type="checkbox" id="numbersOnly" onclick="numbersOnly()"><label for="numbersOnly">Do you want numbers only?</label>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="numbersOnly" />
+                <label for="numbersOnly">Do you want numbers only?</label>
+            </div>
             <div id="line"></div>
             <div id="container">
                 <button id="keyOne"></button>
