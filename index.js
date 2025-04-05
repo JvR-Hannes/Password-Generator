@@ -20,19 +20,19 @@ function getRandomNumber() {
     return randomNum
 }
 
-function numbersOnly() {
-    let checkbox = document.getElementById("numbersOnly")
-    condition = checkbox.checked
+// function numbersOnly() {
+//     let checkbox = document.getElementById("numbersOnly")
+//     condition = checkbox.checked
     
-    if(condition) {
-        firstKeyEl.textContent = getRandomNumber()
-        secondKeyEl.textContent = getRandomNumber()
-    }else {
-        firstKeyEl.textContent = generateKey()
-        secondKeyEl.textContent = generateKey()
-    }
+//     if(condition) {
+//         firstKeyEl.textContent = getRandomNumber()
+//         secondKeyEl.textContent = getRandomNumber()
+//     }else {
+//         firstKeyEl.textContent = generateKey()
+//         secondKeyEl.textContent = generateKey()
+//     }
     
-}
+// }
 
 function generateKey() {
     let randomPassword = ""
@@ -43,10 +43,14 @@ function generateKey() {
 }
 
 function generatePassword() {
-    if (condition === true) {
-        numbersOnly()
+    let checkbox = document.getElementById("numbersOnly")
+    condition = checkbox.checked
+    
+    if(condition) {
+        firstKeyEl.textContent = getRandomNumber()
+        secondKeyEl.textContent = getRandomNumber()
     }else {
         firstKeyEl.textContent = generateKey()
-        secondKeyEl.textContent = generateKey()   
+        secondKeyEl.textContent = generateKey()
     }
 }
